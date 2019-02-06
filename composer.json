@@ -1,0 +1,30 @@
+{
+  "name": "dmitriikoziuk/yii2-web-backend-lock",
+  "description": "Redirect all not authenticated web user to login page.",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "backend lock"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitrii Koziuk",
+      "email": "dmitriikoziuk@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "yiisoft/yii2": "~2.0.0",
+    "dmitriikoziuk/yii2-config-manager": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "DmitriiKoziuk\\yii2WebBackendLock\\": "src"
+    }
+  },
+  "extra": {
+    "bootstrap": "DmitriiKoziuk\\yii2WebBackendLock\\Bootstrap"
+  }
+}
