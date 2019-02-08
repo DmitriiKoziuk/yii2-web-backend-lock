@@ -6,7 +6,7 @@ use yii\helpers\Url;
 use yii\web\Application as WebApp;
 use yii\web\Controller;
 use yii\base\BootstrapInterface;
-use DmitriiKoziuk\yii2ConfigManager\ConfigManager as ConfigModule;
+use DmitriiKoziuk\yii2ConfigManager\ConfigManagerModule;
 use DmitriiKoziuk\yii2ConfigManager\services\ConfigService;
 
 final class Bootstrap implements BootstrapInterface
@@ -22,7 +22,7 @@ final class Bootstrap implements BootstrapInterface
             /** @var ConfigService $configService */
             $configService = Yii::$container->get(ConfigService::class);
             $backendAppId = $configService->getValue(
-                ConfigModule::GENERAL_CONFIG_NAME,
+                ConfigManagerModule::GENERAL_CONFIG_NAME,
                 'backendAppId'
             );
             if ($backendAppId == $app->id) {
