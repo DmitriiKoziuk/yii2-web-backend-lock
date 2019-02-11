@@ -16,7 +16,7 @@ php composer.phar require dmitriikoziuk/yii2-web-backend-lock
 or add
 
 ```
-"dmitriikoziuk/yii2-web-backend-lock": "~1.0"
+"dmitriikoziuk/yii2-web-backend-lock": "^0.1"
 ```
 
 to the require section of your `composer.json` file.
