@@ -16,8 +16,7 @@
   ],
   "require": {
     "php": ">=7.1.0",
-    "yiisoft/yii2": "~2.0.0",
-    "dmitriikoziuk/yii2-config-manager": "dev-master"
+    "yiisoft/yii2": "~2.0.0"
   },
   "autoload": {
     "psr-4": {
