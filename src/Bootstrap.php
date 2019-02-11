@@ -1,7 +1,6 @@
 <?php
 namespace DmitriiKoziuk\yii2WebBackendLock;
 
-use Yii;
 use yii\helpers\Url;
 use yii\web\Application as WebApp;
 use yii\web\Controller;
